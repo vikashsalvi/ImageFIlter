@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+attr? aspectRatioX
+attr? aspectRatioY
+attr? fixAspectRatio
+attr? guidelines
+color black_translucent
+color border
+color corner
+color guideline
+color surrounding_area
+color white_translucent
+dimen border_thickness
+dimen corner_length
+dimen corner_thickness
+dimen guideline_thickness
+dimen snap_radius
+dimen target_radius
+id off
+id on
+id onTouch
+styleable CropImageView guidelines fixAspectRatio aspectRatioX aspectRatioY

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/res"/><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/build/generated/res/rs/debug"/><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/res"><file path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/res/values/colors.xml" qualifiers=""><color name="white_translucent">#AAFFFFFF</color><color name="black_translucent">#B0000000</color><color name="border">@color/white_translucent</color><color name="guideline">@color/white_translucent</color><color name="corner">@android:color/white</color><color name="surrounding_area">@color/black_translucent</color></file><file path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/res/values/attrs.xml" qualifiers=""><declare-styleable name="CropImageView">
+
+        <attr name="guidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="fixAspectRatio"/>
+        <attr format="integer" name="aspectRatioX"/>
+        <attr format="integer" name="aspectRatioY"/>
+
+    </declare-styleable></file><file path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/res/values/dimen.xml" qualifiers=""><dimen name="border_thickness">3dp</dimen><dimen name="corner_thickness">5dp</dimen><dimen name="guideline_thickness">1px</dimen><dimen name="target_radius">24dp</dimen><dimen name="snap_radius">3dp</dimen><dimen name="corner_length">20dp</dimen></file></source><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/build/generated/res/rs/debug"/><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/vikash/OneDrive - Dalhousie University/content/Mobile Computing/ImageFilter/ImageFilter/cropper/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CropImageView">
+
+        <attr name="guidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="fixAspectRatio"/>
+        <attr format="integer" name="aspectRatioX"/>
+        <attr format="integer" name="aspectRatioY"/>
+
+    </declare-styleable></configuration></mergedItems></merger>
